@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 35rem;
+    border-radius: 1rem;
+    border: 2px solid green;
+    height: 2rem;
+    padding: 0.2rem;
+    margin-bottom: 10px;
+}
+
+button {
+    border: none;
+    width: 15rem;
+    border-radius: 1rem;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    background: mediumaquamarine;
+    margin-top: 10px;
+    margin-left: 11rem;
+    &:hover{
+        background: lightcoral
+    }
+}
